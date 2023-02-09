@@ -1,24 +1,53 @@
-/*RESET*/
+/* RESET */
 * {
     outline: 1px solid rgb(255, 0, 0);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
+/* COMMON  */
 .container {
     height: 100vh;
     width: 100vw;
     background-color: black;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* HEADER */
 header {
     height: 7vh;
 }
 
+.button-container {
+    top: 3px;
+    right: 3px;
+}
+
+.button {
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 4px;
+    border: none;
+}
+
+
+/* MAIN */
 main {
     height: 83vh;
 }
+
+
+/* FOOTER */
 
 footer {
     height: 10vh;
