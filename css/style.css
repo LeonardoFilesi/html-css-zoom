@@ -60,14 +60,14 @@ main {
 
 .card {
     width: calc(100% / 7);
-    padding: 2px 5px;
+    padding: 5px 2px;
     max-height: calc(100% / 5);
 }
 
 .user-details {
     position: absolute;
-    bottom: 2px;
-    left: 5px;
+    bottom: 5px;
+    left: 2px;
     padding: 2px;
     background-color: rgba(128, 128, 128, 0.501);
 }
