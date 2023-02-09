@@ -24,8 +24,12 @@
 
 .flex {
     display: flex;
+}
+
+.wrap {
     flex-wrap: wrap;
 }
+
 
 img {
     width: 100%;
@@ -56,6 +60,7 @@ main {
     height: 83vh;
     width: 90vw;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .card {
@@ -76,6 +81,21 @@ main {
 
 footer {
     height: 10vh;
+    background-color: rgb(73, 71, 71);
+    justify-content: space-between;
 }
 
+.user-settings {}
+
+.app-settings {}
+
+.end-meeting {
+    padding: 15px;
+    align-items: center;
+    background-color: grey;
+}
+
+span {
+    color: red;
+}
 
