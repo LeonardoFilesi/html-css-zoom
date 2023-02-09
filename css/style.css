@@ -1,6 +1,5 @@
 /* RESET */
 * {
-    outline: 1px solid rgb(255, 0, 0);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -74,7 +73,7 @@ main {
     bottom: 5px;
     left: 2px;
     padding: 2px;
-    background-color: rgba(128, 128, 128, 0.501);
+    background-color: rgba(128, 128, 128, 0.707);
 }
 
 /* FOOTER */
@@ -85,15 +84,41 @@ footer {
     justify-content: space-between;
 }
 
-.user-settings {}
+.user-settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-.app-settings {}
+.app-settings {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+}
+
+.footer-button  {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footer-button i {
+    align-self: center;
+    font-size: 2rem;
+}
+
+.special {
+    color: rgb(26, 170, 26);
+}
 
 .end-meeting {
     padding: 15px;
     align-items: center;
     background-color: grey;
 }
+
+
 
 span {
     color: red;
