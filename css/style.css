@@ -101,6 +101,11 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    transition: .3s;
+}
+
+.footer-button:hover {
+    background-color: rgb(133, 133, 133);
 }
 
 .footer-button i {
